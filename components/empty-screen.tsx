@@ -6,12 +6,16 @@ import { IconArrowRight } from '@/components/ui/icons';
 
 const exampleMessages = [
   {
-    heading: 'What is the account balance?',
-    message: 'What is the account balance of dv2eQHeP4RFrJZ6UeiZWoc3XTtmtZCUKxxCApCDcRNV ?',
+    heading: 'What is the diabetes mellitus?',
+    message: 'Tell me about Diabetes Mellitus, its types, symptoms, complications and treatment.',
   },
   {
-    heading: 'what are the nfts held by this wallet address?',
-    message: 'what are the nfts held by this wallet address : dv2eQHeP4RFrJZ6UeiZWoc3XTtmtZCUKxxCApCDcRNV ?',
+    heading: 'what is health insurance?',
+    message: 'Explain what health insurance is to me, state the common types, typical costs and packages and give me some of the best insurance that you can find in the united states?',
+  },
+  {
+    heading: 'I earn $5000/month and I want to know which Aetna Insurance plan suits me?',
+    message: 'I want to know about Aetna Health Insurance, its packages and prices? I earn $5000/month and I want to know which Aetna Insurance plan suits me?',
   }
 ];
 
