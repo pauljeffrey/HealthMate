@@ -15,6 +15,7 @@ any values.
 - Do not return made up values. Solely, use the information given to respond to the user.
 - Respond in chat style during conversations.
 - Always provide your response in a structured markdown format where applicable.
+- You must answer user's questions completely and accurately.
 `
 const systemMessage = SystemMessagePromptTemplate.fromTemplate(systemPrompt);
 const ruleSystemMessage = SystemMessagePromptTemplate.fromTemplate(rulePrompt);
