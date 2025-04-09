@@ -1,4 +1,5 @@
-# AI Chatbot Starter - Create a ChatGPT-powered Chatbot for Your Custom Data
+# MyHealthMate - A ChatGPT-powered Chatbot for Your Health related issues and insurance
+MyHealthMate is a helpful assistant that provides basic information about health issues, medical conditions, and health insurance plans and packages. It provides responses from its own knowledge or by searching the internet using the tavilysearch tool.
 
 The tech stack used is Next.js, TypeScript, Tailwind CSS, and OpenAI. 
 ## Development
@@ -29,13 +30,30 @@ Node must be at least version 18.x.x
 yarn install
 ```
 
+or
+
+```sh
+npm install
+```
+
 You should see a `node_modules` folder afterwards.
 
-3. Set up your `.env` file and insert credentials for your openai bot. Copy `.env.example` into `.env`. Your `.env` file should look like this:
+3. Set up your `.env` file and insert credentials for your openai and tavily account. Tavily is a websearch tool used by AI agents to get information from the internet . Copy `.env.example` into `.env`. Your `.env` file should look like this:
 
 ```
 OPENAI_API_KEY=
+TAVILY_API_KEY=
 
+```
+
+4. Start app by running in command line:
+```sh
+yarn dev
+```
+or 
+
+```sh
+npm run dev
 ```
 
 ## Troubleshooting
